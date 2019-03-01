@@ -1,6 +1,7 @@
 'use strict';
 
 const request = require('request');
+const fs = require("fs");
 
 // Replace <Subscription Key> with your valid subscription key.
 const subscriptionKey = 'a1396b3f3f4940fb8d9151a0d8e0970f';
