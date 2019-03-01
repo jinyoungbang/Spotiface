@@ -39,7 +39,7 @@ while True:
         cv2.imwrite(img_name, frame)
         print("{} written!".format(img_name))
         img_counter += 1
-
+        time.sleep(5)
 
     if anterior != len(faces):
         anterior = len(faces)
