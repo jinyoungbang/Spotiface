@@ -18,8 +18,8 @@ params = {
 };
 
 headers = {
-    'Content-Type': 'application/octet-stream', 
-    'Ocp-Apim-Subscription-Key': 'a1396b3f3f4940fb8d9151a0d8e0970f'
+    'Content-Type': 'application/octet-stream',
+    'Ocp-Apim-Subscription-Key': '99b2a392977a4387ab2826634fdf4b50'
 }
 
 cascPath = "haarcascade_frontalface_default.xml"
@@ -32,11 +32,11 @@ starttime=time.time()
 
 
 #oAuthToken = raw_input("Please Enter a OAuth Token from Spotify: ")
-oAuthToken = 'BQDI1m4e06q5Fd545taq-OZt0I-1LrbN1hFGwpTUYpGqOjdfqhFQbqiA6sIaASPjEuG-cfTEapcVurhVYqoddPm_JSVFdSHYUyToPD-wugbIL7j82ljU3-e2gDSZW5bGPvKP7TaS6RuXStDm5krD3N-WaX4rq6rrwkY9mrfpYqV8hGMofHVtje-r1ROlwmekqNvWlGoCM6KpTs6JBUm_tiuLDTLLdCXJ7AUddbGctE9CJG_yfFLTNsLXAA'
+oAuthToken = 'BQARpI94UaJ_CX9cqlMBGHztA0hb8p6ESK78cbIHJPQFaFN20K_cuDM2FQ0u2HfNUJzRsrAItU47IBor5SFiiCrVeLaFxcRxUFnkHvfES6ZW-x8F4VpfpvX_JywfbPjtuK5r3IwtsDdRfdYJCO5ZrWYj5OroPP2mxxZJwAibhyWHBnAfQtWeEKVdZyDp7_-Qv9ct'
 #genre = raw_input("Please Enter Your Favorite Genre: ")
-genre = 'classical'
+genre = 'pop'
 #genre = raw_input("Please Enter Your Device ID: ")
-device_id = '787e521a58709c09c46b312a08dbb01f7483cddd'
+device_id = '27f4740d105b443227425984a1eb19a3cc11ff69'
 
 def calculate_valence(emotions):
     neutral_factor = 0.5
@@ -125,5 +125,3 @@ while True:
 # When everything is done, release the capture
 video_capture.release()
 cv2.destroyAllWindows()
-
-
